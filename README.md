@@ -7,41 +7,41 @@ Welcome to the **Tenstep** project repository! This project focuses on leveragin
 ## Business Objectives (BO)
 
 - **BO1: Improve Risk Mitigation and Identification:**  
-  Develop models that can identify, assess, and mitigate risks in real time, ensuring better decision-making and risk management in projects.
+  I aim to develop models that can identify, assess, and mitigate risks in real time, ensuring better decision-making and risk management in projects.
 
 - **BO2: Enhance Project Efficiency with Automated Knowledge Retrieval:**  
-  Streamline project management workflows by automating the retrieval of knowledge from project archives, reducing time spent searching for past insights.
+  I streamline project management workflows by automating the retrieval of knowledge from project archives, reducing time spent searching for past insights.
 
 - **BO3: Improve Project Planning and Scheduling:**  
-  Utilize advanced analytics to predict project timelines and optimize resource allocation for more efficient scheduling and planning.
+  I utilize advanced analytics to predict project timelines and optimize resource allocation for more efficient scheduling and planning.
 
 ---
 
 ## Data Science Objectives (DSO)
 
 - **DS01: Build a Model to Extract and Categorize Risks**  
-  Extract and categorize risks from project documents, providing actionable risk mitigation strategies based on **PMBOK** guidelines.
+  I extract and categorize risks from project documents, providing actionable risk mitigation strategies based on **PMBOK** guidelines.
 
 - **DS02: Use NLP and Communication Analytics**  
-  Evaluate stakeholder sentiment using NLP to optimize communication strategies and engagement.
+  I evaluate stakeholder sentiment using NLP to optimize communication strategies and engagement.
 
 - **DS03: Automate Knowledge Retrieval**  
-  Use machine learning and NLP to automate the retrieval of relevant knowledge from project archives, reducing time spent searching for past insights.
+  I use machine learning and NLP to automate the retrieval of relevant knowledge from project archives, reducing time spent searching for past insights.
 
 - **DS04: Apply Predictive Analytics for Scheduling Efficiency**  
-  Apply predictive analytics to forecast project timelines, optimize resource allocation, and improve overall scheduling efficiency.
+  I apply predictive analytics to forecast project timelines, optimize resource allocation, and improve overall scheduling efficiency.
 
 ---
 
 ## Final Graph: Knowledge Graph Representation
 
-Here, we show the knowledge graph built for the Tenstep system, which integrates relationships between tasks, resources, risks, and stakeholders. This graph helps visualize the project dependencies and facilitates decision-making across multiple levels of project management.
+Here, I show the knowledge graph built for the Tenstep system, which integrates relationships between tasks, resources, risks, and stakeholders. This graph helps visualize the project dependencies and facilitates decision-making across multiple levels of project management.
 
 ![Final Graph Image 1](/read_img/1.png)  
 ![Final Graph Image 2](/read_img/2.png)
 
 *Explanation:*  
-The knowledge graph represents the interconnections between various project components, such as tasks, stakeholders, and resources. These relationships help in risk mitigation, project planning, and optimization. By analyzing the graph, project managers can understand dependencies and make data-driven decisions to improve project outcomes.
+The knowledge graph represents the interconnections between various project components, such as tasks, stakeholders, and resources. These relationships help in risk mitigation, project planning, and optimization. By analyzing the graph, I can understand dependencies and make data-driven decisions to improve project outcomes.
 
 ---
 
@@ -53,7 +53,7 @@ The knowledge graph represents the interconnections between various project comp
 ![GNN Image](/read_img/3.png)
 
 *Explanation:*  
-GNNs are used to model complex relationships and dependencies in the data. In this case, the fluctuating loss indicates the model is not yet able to make accurate predictions, primarily due to data limitations.
+I use GNNs to model complex relationships and dependencies in the data. In this case, the fluctuating loss indicates the model is not yet able to make accurate predictions, primarily due to data limitations.
 
 ---
 
@@ -110,9 +110,9 @@ The Llama model generates a structured, detailed plan based on the input query, 
 
 ## Chosen Approach
 
-To enhance the results further, we send the **Llama model** through an additional layer of fine-tuning using a more capable version of the model. This process improves the response quality and allows for more accurate planning, risk assessment, and scheduling.
- 
-By fine-tuning the Llama model and enhancing its capabilities, we ensure that the system can provide highly accurate, context-aware recommendations and insights. This iterative refinement helps prepare for risks, plan tasks, and schedule activities with greater precision.
+To enhance the results further, I send the **Llama model** through an additional layer of fine-tuning using a more capable version of the model. This process improves the response quality and allows for more accurate planning, risk assessment, and scheduling.
+
+By fine-tuning the Llama model and enhancing its capabilities, I ensure that the system can provide highly accurate, context-aware recommendations and insights. This iterative refinement helps me prepare for risks, plan tasks, and schedule activities with greater precision.
 
 ---
 
