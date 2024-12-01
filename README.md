@@ -37,8 +37,8 @@ Welcome to the **Tenstep** project repository! This project focuses on leveragin
 
 Here, we show the knowledge graph built for the Tenstep system, which integrates relationships between tasks, resources, risks, and stakeholders. This graph helps visualize the project dependencies and facilitates decision-making across multiple levels of project management.
 
-![Final Graph Image 1](URL_TO_FINAL_GRAPH_IMAGE_1)  
-![Final Graph Image 2](URL_TO_FINAL_GRAPH_IMAGE_2)
+![Final Graph Image 1](/read_img/1.png)  
+![Final Graph Image 2](/read_img/2.png)
 
 *Explanation:*  
 The knowledge graph represents the interconnections between various project components, such as tasks, stakeholders, and resources. These relationships help in risk mitigation, project planning, and optimization. By analyzing the graph, project managers can understand dependencies and make data-driven decisions to improve project outcomes.
@@ -50,7 +50,7 @@ The knowledge graph represents the interconnections between various project comp
 **Fluctuating Loss:**  
 - The model struggles with learning due to a small dataset, causing it to fail at generalizing and learning meaningful patterns. This is common in early stages when the model is not trained on a large, diverse dataset.
 
-![GNN Image](URL_TO_GNN_IMAGE)
+![GNN Image](/read_img/3.png)
 
 *Explanation:*  
 GNNs are used to model complex relationships and dependencies in the data. In this case, the fluctuating loss indicates the model is not yet able to make accurate predictions, primarily due to data limitations.
@@ -63,7 +63,7 @@ GNNs are used to model complex relationships and dependencies in the data. In th
 - **Training and Validation Loss:** Both show steady decline, indicating that the model is learning effectively.
 - **Performance:** The model is well-performing with minimal overfitting, showcasing good generalization.
 
-![GCN Image](URL_TO_GCN_IMAGE)
+![GCN Image](/read_img/4.png)
 
 *Explanation:*  
 GCNs perform exceptionally well, with high accuracy and stable loss curves. This means the model is effectively learning the underlying patterns and is capable of generalizing to unseen data, providing accurate predictions.
@@ -75,8 +75,7 @@ GCNs perform exceptionally well, with high accuracy and stable loss curves. This
 **Training Curve:**  
 - Around epoch 150, the curve starts to flatten, indicating the model has likely converged. Further training would not significantly reduce the loss.
 
-![RAG Image 1](URL_TO_RAG_IMAGE_1)  
-![RAG Image 2](URL_TO_RAG_IMAGE_2)
+![RAG Image 1](/read_img/5.png)  
 
 *Explanation:*  
 RAG combines retrieval-based techniques with generative models, enabling the system to provide relevant information by dynamically pulling data during training. As the model reaches convergence, it becomes more capable of retrieving relevant knowledge for project management insights.
@@ -89,8 +88,8 @@ RAG combines retrieval-based techniques with generative models, enabling the sys
 - High, steadily increasing accuracy indicates excellent model performance.
 - A high **ROUGE** score confirms that the model aligns well with expected outcomes.
 
-![Llama Image 1](URL_TO_LLAMMA_IMAGE_1)  
-![Llama Image 2](URL_TO_LLAMMA_IMAGE_2)
+![Llama Image 1](/read_img/6.png)  
+![Llama Image 2](/read_img/7.png)
 
 *Explanation:*  
 The Llama model is designed to understand natural language effectively. With its increasing accuracy and high ROUGE score, it can generate precise answers based on project management data, enhancing decision-making and optimizing project processes.
@@ -102,7 +101,7 @@ The Llama model is designed to understand natural language effectively. With its
 **Input:**  
 _"Provide a detailed 7-day mobile app development plan. Outline each day’s tasks, key milestones, and expected deliverables."_
 
-![Llama Input Example](URL_TO_LLAMMA_INPUT_IMAGE)
+![Llama Input Example](/read_img/8.png)
 
 *Explanation:*  
 The Llama model generates a structured, detailed plan based on the input query, helping project managers automate planning and task scheduling.
@@ -115,9 +114,6 @@ To enhance the results further, we send the **Llama model** through an additiona
 
 **Explanation:**  
 By fine-tuning the Llama model and enhancing its capabilities, we ensure that the system can provide highly accurate, context-aware recommendations and insights. This iterative refinement helps prepare for risks, plan tasks, and schedule activities with greater precision.
-
-![Llama Approach Image 1](URL_TO_LLAMMA_APPROACH_IMAGE_1)  
-![Llama Approach Image 2](URL_TO_LLAMMA_APPROACH_IMAGE_2)
 
 *Explanation:*  
 The final model’s responses are polished to ensure the highest accuracy and relevance in project management tasks, leveraging the latest advancements in NLP for more effective decision-making.
