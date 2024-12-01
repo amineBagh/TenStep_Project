@@ -111,12 +111,8 @@ The Llama model generates a structured, detailed plan based on the input query, 
 ## Chosen Approach
 
 To enhance the results further, we send the **Llama model** through an additional layer of fine-tuning using a more capable version of the model. This process improves the response quality and allows for more accurate planning, risk assessment, and scheduling.
-
-**Explanation:**  
+ 
 By fine-tuning the Llama model and enhancing its capabilities, we ensure that the system can provide highly accurate, context-aware recommendations and insights. This iterative refinement helps prepare for risks, plan tasks, and schedule activities with greater precision.
-
-*Explanation:*  
-The final model’s responses are polished to ensure the highest accuracy and relevance in project management tasks, leveraging the latest advancements in NLP for more effective decision-making.
 
 ---
 
